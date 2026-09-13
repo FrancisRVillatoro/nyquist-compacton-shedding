@@ -1,0 +1,2 @@
+case,h,kappa,first_clean_time,last_clean_time,n_clean,A_over_h2_median,profile_residual_median,profile_residual_max,velocity_fit,semidiscrete_velocity,velocity_relative_error,max_ahead_HP_over_h2,x0,phi_right
+h001_k5,0.01,5,3.6,4.3,15,0.17109669313918682,1.2169712297846626e-05,0.016734978000448666,1.3078476258491276,3.5351198548100635,-0.630041503665115,0.2517224660087547,6.5000000000000036,0.3185307179589927

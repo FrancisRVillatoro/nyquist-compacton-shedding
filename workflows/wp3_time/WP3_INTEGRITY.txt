@@ -1,0 +1,6 @@
+spectrum_rows=28
+free_wave_rows=86
+packet_validation_rows=4
+cost_rows=8
+summary_rows=18
+richardson_rows=6

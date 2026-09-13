@@ -1,0 +1,8 @@
+Python: 3.13.5
+NumPy: 2.3.5
+SciPy: 1.17.0
+pandas: 2.2.3
+Matplotlib: 3.10.8
+SymPy: 1.14.0
+Platform used for WP6 curation: Linux x86_64, glibc 2.41
+Timestamp: 2026-09-04T19:12:25.093455+00:00

@@ -25,7 +25,7 @@ python reproduce.py smoke
 - `workflows/wp5_verification/`: tolerances, domain, Ritz, tangent/adjoint, uncertainty and nonnormality audits.
 - `workflows/wp7_refinement/`: fixed-`kappa` fully discrete mesh refinement of naturally shed packets.
 - `workflows/wp8_closure/`: strict threshold spectrum and final closure controls.
-- `data/derived/historical/`: small derived products from the two historical simulations.
+- `data/derived/historical/`: small derived products from the two archived historical simulations.
 - `data/raw/`: location of the two historical `.mat` files in the full archival release.
 - `metadata/`: software versions, source provenance, claim registry and SHA-256 manifests.
 - `tests/`: fast deterministic checks suitable for CI.
@@ -42,11 +42,9 @@ The two historical MATLAB files are kept in a separate archive. Exact SHA-256 ha
 
 ## Version 1.0.0
 
-This tree is the frozen source/derived-data release used for the associated study. It includes the WP1--WP5 workflows, the fixed-`kappa` WP7 refinement workflow, and the strict WP8 closure calculations. The public repository is:
+This tree is the frozen source/derived-data release used for the associated study. It includes the WP1--WP5 workflows, the fixed-`kappa` WP7 refinement workflow, and the strict WP8 closure calculations.
 
-https://github.com/FrancisRVillatoro/nyquist-compacton-shedding
-
-The software release will be archived through the Zenodo--GitHub integration. The two immutable historical MATLAB inputs are deposited separately as a cross-linked Zenodo dataset so that raw data and software retain clear licensing and citation metadata.
+Public repository: https://github.com/FrancisRVillatoro/nyquist-compacton-shedding
 
 ## License
 

@@ -1,0 +1,2 @@
+method,h,kappa,phase,T,minimum_own_profile_relL2,time_of_minimum,candidate_A_over_h2,number_candidates_relL2_below_0p02,interpretation
+pade6,0.02,20,0.25,30.0,0.5275986067064481,12.3,0.028598,0,"Floquet unstable, but no clean isolated forward Nyquist solitary packet within this finite observation window."

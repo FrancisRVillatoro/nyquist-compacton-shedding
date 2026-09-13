@@ -1,0 +1,8 @@
+h,method,quantity,observed_order,kappas_used,reference
+0.01,midpoint,rho_F,2.0379101091401925,"20,40,80",GL4 kappa=80
+0.01,gl4,rho_F,3.6926191571401903,"5,10,20",GL4 kappa=80
+0.01,gl4,compacton_Linf,-0.007590911239765928,"5,10",GL4 kappa=80
+0.02,midpoint,rho_F,2.0246111485478653,"20,40,80",GL4 kappa=80
+0.02,midpoint,compacton_Linf,3.3515809083948955,"10,20",GL4 kappa=80
+0.02,gl4,rho_F,4.303776156830904,"5,10,20",GL4 kappa=80
+0.02,gl4,compacton_Linf,1.8232723855828235,"5,10,20",GL4 kappa=80

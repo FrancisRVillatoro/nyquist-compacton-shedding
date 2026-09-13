@@ -1,0 +1,3 @@
+method,minimum_directional_relative_error,fixed_point_residual,adjoint_identity_relative_error
+defrutos,2.8609265586815676e-05,4.4537618536950844e-10,4.1583987741459875e-14
+pade6,4.022684278395487e-05,4.4527579498459327e-10,4.129990962854634e-15

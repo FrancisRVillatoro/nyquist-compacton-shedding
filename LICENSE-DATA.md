@@ -2,14 +2,10 @@
 
 Copyright (c) 2026 Rubén Garralón-López, Francisco Rus, and Francisco R. Villatoro.
 
-Unless a file states otherwise, the derived research data, numerical tables,
-workflow-generated figures, and associated data documentation in this
+Unless a file states otherwise, the **derived research data, numerical tables,
+workflow-generated figures, and associated data documentation** in this
 repository are licensed under the Creative Commons Attribution 4.0
 International license (CC BY 4.0).
-
-You are free to share and adapt this material for any purpose, including
-commercial use, provided appropriate credit is given, a link to the license is
-provided, and changes are indicated.
 
 License deed: https://creativecommons.org/licenses/by/4.0/
 Legal code: https://creativecommons.org/licenses/by/4.0/legalcode

@@ -1,0 +1,6 @@
+Portability audit for nyquist-compacton-shedding v1.0.0
+absolute_mnt_data_references=0
+target_journal_name_mentions=0
+software_license=MIT
+derived_data_license=CC-BY-4.0
+raw_mat_in_git=0

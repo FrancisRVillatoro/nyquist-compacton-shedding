@@ -1,0 +1,27 @@
+test,case,value,units,note
+Ritz seed/subspace invariance,"h=0.01, kappa=5",7.766964849054148e-11,absolute rho_F peak-to-peak,max eig residual 1.51e-10
+Ritz seed/subspace invariance,"h=0.02, kappa=20",3.990807684317588e-12,absolute rho_F peak-to-peak,max eig residual 1.38e-11
+domain-size invariance,"h=0.01, kappa=5",6.339346575234828e-06,absolute rho_F peak-to-peak,L=14..20
+domain-size invariance,"h=0.02, kappa=20",2.5131675756018268e-05,absolute rho_F peak-to-peak,L=14..20
+Newton tolerance sensitivity,"h=0.01, kappa=5",0.00018697461571304252,absolute rho_F peak-to-peak,includes deliberately loose 1e-8 outer tolerance
+Newton tolerance sensitivity,"h=0.02, kappa=20",3.612051576573627e-05,absolute rho_F peak-to-peak,includes deliberately loose 1e-8 outer tolerance
+Nyquist-profile spectral convergence,defrutos,7.105427357601002e-15,absolute V_h peak-to-peak,max residual 2.52e-13
+Nyquist-profile spectral convergence,ismail,4.440892098500626e-16,absolute V_h peak-to-peak,max residual 2.71e-13
+Nyquist-profile spectral convergence,pade6,1.4210854715202004e-14,absolute V_h peak-to-peak,max residual 2.84e-13
+Nyquist-profile spectral convergence,pade8,7.105427357601002e-15,absolute V_h peak-to-peak,max residual 2.99e-13
+tangent finite-difference check,defrutos,2.860926558681568e-05,relative error,adjoint identity 4.16e-14
+tangent finite-difference check,pade6,4.022684278395487e-05,relative error,adjoint identity 4.13e-15
+Floquet eigenvalue conditioning,"midpoint, h=0.01, kappa=5",253.82201061477264,condition number,unit-vector overlap 3.940e-03
+Floquet eigenvalue conditioning,"midpoint, h=0.02, kappa=20",45.288689585929305,condition number,unit-vector overlap 2.208e-02
+Floquet eigenvalue conditioning,"gl4, h=0.01, kappa=5",93.64343846602024,condition number,unit-vector overlap 1.068e-02
+hyperviscosity critical-root fit sensitivity,"h=0.01, kappa=5",2.2151615573395844e-05,epsilon peak-to-peak,"local fits, root ~0.368657"
+hyperviscosity critical-root fit sensitivity,"h=0.02, kappa=20",0.0001418247977711118,epsilon peak-to-peak,"local fits, root ~0.190975"
+float32 snapshot storage,Ismail clean packet,1.7140109208918752e-08,relative amplitude change,center change 2.99e-09 cells
+velocity-law out-of-sample discrepancy,archived midpoint CFL5,7.397047490504924e-06,relative velocity,profile residual 1.48e-03
+velocity-law out-of-sample discrepancy,archived midpoint CFL20,5.206901629456642e-07,relative velocity,profile residual 8.61e-05
+velocity-law out-of-sample discrepancy,GL4 packet I,7.822252844640229e-08,relative velocity,profile residual 1.22e-05
+velocity-law out-of-sample discrepancy,GL4 packet II,5.6809109683734664e-08,relative velocity,profile residual 2.38e-06
+natural/prepared speed match after amplitude correction,ismail I,2.042633922910455e-07,relative velocity,same fully discrete spatial stencil
+natural/prepared speed match after amplitude correction,ismail II,2.592912363421905e-07,relative velocity,same fully discrete spatial stencil
+natural/prepared speed match after amplitude correction,pade8 I,2.0597895441274538e-07,relative velocity,same fully discrete spatial stencil
+natural/prepared speed match after amplitude correction,pade8 II,1.2178671660140788e-07,relative velocity,same fully discrete spatial stencil

@@ -1,0 +1,47 @@
+% Suggested article main-text insertion: verification and uncertainty
+\subsection{Verification, uncertainty, and conditioning}
+\label{sec:verification}
+
+Because the proposed mechanism combines a nonlinear relative equilibrium, a
+matrix-free Floquet calculation, and packet-profile fitting, we performed
+independent audits of each numerical layer.  For the two principal midpoint
+cases, changing the block-Ritz dimension from 6 to 10 and using four independent
+random seeds changes the leading spectral radius by only
+$7.8\times10^{-11}$ for $(h,\kappa)=(0.01,5)$ and
+$4.0\times10^{-12}$ for $(0.02,20)$.  Fixed-phase domain variations over
+$14\le L\le20$ change $\rho_F$ by at most $2.6\times10^{-5}$, less than
+$2\times10^{-4}$ of the corresponding instability margin $\rho_F-1$.
+Even deliberately loose Newton tolerances alter $\rho_F$ by at most
+$1.9\times10^{-4}$ in these tests.  Analytic tangent/adjoint implementations
+satisfy discrete adjoint identities at $10^{-14}$--$10^{-15}$, while central
+finite differences reach relative tangent errors of $O(10^{-5})$--$O(10^{-4})$,
+consistent with the $C^1$ but non-$C^2$ regularity of $|u|u$ at zero.
+
+The Fourier iteration for the stencil-dependent Nyquist solitary profiles was
+also repeated over envelope domains of 60--120 cells and with 8192--32768
+Fourier points.  The velocity coefficients $V_{i,h}$ are unchanged to
+floating-point precision and the profile-equation residuals remain below
+$3.0\times10^{-13}$.  Packet amplitudes and center velocities are insensitive
+to the local fit window and to trimming the clean tracking interval.  We
+therefore report deterministic fit-sensitivity envelopes rather than treating
+the computed snapshots as statistically noisy observations.
+
+For the revised fully discrete velocity laws, the independent relative
+prediction discrepancies are $7.4\times10^{-6}$ and $5.2\times10^{-7}$ for
+the two archived midpoint packets and $7.8\times10^{-8}$ and
+$5.7\times10^{-8}$ for the two natural GL4 packets.  For the independent
+Ismail--Taha and Pad\'e-8 tests, correcting the small amplitude mismatch between
+the natural and separately prepared waves reduces their relative speed
+differences to $1.2\times10^{-7}$--$2.6\times10^{-7}$.  Thus the remaining
+mismatches should be viewed as small deterministic model/extraction errors,
+not stochastic confidence intervals.
+
+Finally, the Floquet eigenproblems are appreciably non-normal.  With unit
+right and left eigenvectors, representative eigenvalue condition numbers are
+approximately 254 for midpoint at $(h,\kappa)=(0.01,5)$, 45 for midpoint at
+$(0.02,20)$, and 94 for GL4 at $(0.01,5)$.  This conditioning explains the
+importance of adjoint projections and transient edge amplification, while the
+positive instability margins remain orders of magnitude larger than all
+solver and eigensolver uncertainties.  Full tolerance, domain, fitting,
+storage-precision, and timing audits are reported in the Supplementary
+Material and reproducibility archive.

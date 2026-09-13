@@ -1,0 +1,13 @@
+method,label,integrator,h,kappa,lambda1_real,lambda1_imag,rho_F,branch,fixed_point_residual,eigenpair_residual,notes
+ismail,Ismail--Taha,midpoint,0.02,20,-1.05687228,0.13892458,1.0659639089390291,complex pair,6.01e-08,1.78e-10,
+defrutos,de Frutos,midpoint,0.02,20,-1.13095212,0.0,1.13095212,real negative,1.92e-10,6.65e-12,
+pade6,Pade-6,midpoint,0.02,20,-1.15440616,0.0,1.15440616,real negative,1.91e-10,2.9e-12,
+pade8,Pade-8,midpoint,0.02,20,-1.13054287,0.0,1.13054287,real negative,4.22e-08,2.42e-12,
+ismail,Ismail--Taha,GL4,0.02,10,-1.05800354,0.14196856,1.0674860948419915,complex pair,5.095e-08,5.74e-11,high-order temporal control
+defrutos,de Frutos,GL4,0.02,10,-1.13419897,0.0,1.13419897,real negative,1.431e-10,4.72e-12,high-order temporal control
+pade6,Pade-6,GL4,0.02,10,-1.15597426,0.0,1.15597426,real negative,1.816e-10,2.02e-12,high-order temporal control
+pade8,Pade-8,GL4,0.02,10,-1.13246263,0.0,1.13246263,real negative,4.801e-08,4.9e-12,high-order temporal control
+ismail,Ismail--Taha,midpoint,0.01,5,-1.02180461,0.0,1.02180461,real negative,1.39e-08,2.92e-10,
+defrutos,de Frutos,midpoint,0.01,5,-1.05653764,0.0,1.05653764,real negative,2.81e-10,4.5e-11,
+pade6,Pade-6,midpoint,0.01,5,-1.04411245,0.10743301,1.049625009173592,complex pair,2.78e-10,1.02e-09,
+pade8,Pade-8,midpoint,0.01,5,-1.03819631,0.10201987,1.0431968328040653,complex pair,1.04e-08,5.98e-10,

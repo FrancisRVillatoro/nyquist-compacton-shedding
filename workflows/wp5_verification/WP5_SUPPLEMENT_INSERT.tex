@@ -1,0 +1,59 @@
+% Suggested Supplementary Material insertion
+\section{Numerical verification and uncertainty audit}
+
+This section documents the deterministic verification studies supporting the
+main-text Floquet, profile, control, and packet-propagation results.
+
+\subsection{Ritz initialization and subspace dimension}
+The dominant midpoint multipliers were recomputed with block dimensions
+$6,8,10$ and four random initial subspaces.  The peak-to-peak changes in
+$\rho_F$ were $7.77\times10^{-11}$ and $3.99\times10^{-12}$ for the two
+principal cases.  The maximum leading Ritz residuals were
+$1.51\times10^{-10}$ and $1.38\times10^{-11}$.
+
+\subsection{Nonlinear solver and periodic-domain sensitivity}
+Including deliberately loose fixed-point solves, the total variation in
+$\rho_F$ is $1.87\times10^{-4}$ for $(0.01,5)$ and $3.61\times10^{-5}$ for
+$(0.02,20)$.  Fixed-phase box-size sweeps over $14\le L\le20$ give spreads
+$6.34\times10^{-6}$ and $2.51\times10^{-5}$, respectively.  These values are
+small compared with $\rho_F-1$.
+
+\subsection{Profile-resolution convergence}
+For all four spatial stencils, $V_{i,h}$ is invariant to floating-point
+precision when the Fourier resolution is varied from 8192 to 32768 points and
+the computational half-domain from 60 to 120 cell coordinates.  The profile
+equation residual is below $3\times10^{-13}$ in all reported runs.  FWHM
+variations reflect the direct grid-threshold definition and are not used as a
+high-precision observable.
+
+\subsection{Packet fitting and bootstrap sensitivity}
+Bootstrap resampling of clean snapshots, local-window variations, and trimming
+of the fitting interval were performed for the archived midpoint packets, the
+natural GL4 packets, and the Ismail/Pad\'e-8 packets.  The deterministic
+trajectories make the regression uncertainty extremely small.  The limiting
+error in the midpoint/GL4 velocity comparisons is instead the calibrated
+fully-discrete correction law.  Complete bootstrap samples and fit-window
+variants are supplied as CSV files.
+
+\subsection{Critical damping threshold}
+The hyperviscous stability crossings were refitted with several local point
+counts and linear/quadratic models.  Local fits give
+$\varepsilon_c\simeq0.36866$ for $(0.01,5)$ with a peak-to-peak fit spread
+$2.2\times10^{-5}$, and $\varepsilon_c\simeq0.19098$ for $(0.02,20)$ with a
+local spread $1.4\times10^{-4}$.  The coarser half-grid uncertainties quoted
+in the main causal-control study are therefore conservative.
+
+\subsection{Nonnormality}
+For unit left/right eigenvectors the condition number
+$\kappa_\lambda=1/|\ell^*r|$ is approximately 254 and 45 for the two principal
+midpoint cases and 94 for the principal GL4 complex branch.  The strong
+nonnormality motivates the use of the full adjoint unstable-subspace
+projection in the onset and control experiments.
+
+\subsection{Storage precision and computational timings}
+A float64 clean Ismail packet refitted after float32 storage changes the fitted
+amplitude by $1.7\times10^{-8}$ relative and its center by
+$3.0\times10^{-9}$ cells, negligible for the reported WP4 diagnostics.
+Timing results are medians of repeated one-cell evaluations; implementation-
+dependent min-to-max ranges are typically a few to twenty percent, so timing
+ratios are reported with intentionally limited significant figures.

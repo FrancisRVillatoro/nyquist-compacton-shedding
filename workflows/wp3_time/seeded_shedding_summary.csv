@@ -1,0 +1,3 @@
+case,h,method,kappa,rho_F,lambda_real,lambda_imag,seed_edge_HP_over_h2,first_forward_shift_time,max_edge_HP_over_h2,max_ahead_HP_over_h2,first_clean_cell,n_clean,median_clean_A_over_h2,fitted_absolute_velocity,semidiscrete_velocity_from_A,velocity_relative_error_vs_semidiscrete,median_clean_profile_residual,min_profile_residual,runtime_s
+h001_mid_k5,0.01,midpoint,5,1.0566329057692634,-1.0566329057692634,0.0,0.005,,0.05435504200056883,0.008683770689380449,,0,,,,,,,3.032280683517456
+h001_gl4_k5,0.01,gl4,5,1.0956649963446978,-1.0851686152847715,0.15129725911581618,0.005,,0.11875679820456271,0.11324195388656824,,0,,,,,,0.23871221771900236,9.840591430664062

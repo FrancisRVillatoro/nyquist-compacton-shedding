@@ -1,0 +1,2 @@
+phi_right,n_points,n_unstable,rho_min,rho_max,n_real_flip,n_complex_pair,max_fixed_point_residual,max_eigenpair_residual,min_two_edge_energy_fraction,max_abs_delta_rho_vs_variable_phase,median_abs_delta_rho_vs_variable_phase,max_relative_delta_rho_vs_variable_phase,same_branch_classification_count
+0.25,25,25,1.0392158733797932,1.1327947230332227,14,11,7.85108167367099e-09,2.627259344993695e-09,0.9938009929386176,0.0008180662074794842,1.6941319382901554e-05,0.0007736382650999983,25

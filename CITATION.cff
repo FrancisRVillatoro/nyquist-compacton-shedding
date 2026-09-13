@@ -23,9 +23,3 @@ keywords:
   - numerical radiation
   - spurious solitary waves
   - reproducibility
-abstract: >-
-  Reproducibility software, derived numerical data, retained checkpoints, and
-  verification workflows for the study of edge-localized Floquet instabilities
-  and Nyquist solitary-wave shedding from numerical compactons. Source code is
-  licensed under MIT; derived research data and workflow-generated figures are
-  licensed under CC BY 4.0.

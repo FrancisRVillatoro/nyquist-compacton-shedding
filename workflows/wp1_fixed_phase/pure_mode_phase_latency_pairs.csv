@@ -1,0 +1,3 @@
+h,kappa,delta_turn_cells_observed,delta_turn_cells_predicted,delta_time_observed,delta_time_predicted,error_cells
+0.01,5,-29,42.79437638013083,-0.29,0.4279437638013083,-71.79437638013083
+0.02,20,23,23.4967657199971,0.46,0.469935314399942,-0.49676571999710006

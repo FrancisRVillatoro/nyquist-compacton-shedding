@@ -1,0 +1,5 @@
+method,label,formal_orders,V_h_h002,FWHM_cells_h002,edge_seed_coefficient,edge_seed_relative_to_deFrutos,GL4_rhoF_h002_k10,GL4_branch,natural_clean_capture_quantified
+ismail,Ismail--Taha,"(2,2)",2.8576467195960147,3.18603515625,0.041666666666666664,7.499999999999999,1.0674860948419915,complex pair,True
+defrutos,de Frutos,"(6,4)",20.66052165424319,5.44921875,0.005555555555555556,1.0,1.13419897,real negative,True
+pade6,Pade-6,"(4,6)",40.749639845829144,7.294921875,0.002777777777777778,0.5,1.15597426,real negative,False
+pade8,Pade-8,"(8,2)",31.990199534078563,6.1962890625,0.0035714285714285713,0.6428571428571428,1.13246263,real negative,True

@@ -1,0 +1,4 @@
+method,integrator,h,kappa,rho_F,lambda_real,lambda_imag,fixed_point_residual,eigenpair_residual
+pade6,GL4,0.02,5,1.1558858,-1.1558858,0.0,1.39e-10,2.16e-12
+pade6,GL4,0.02,10,1.15597426,-1.15597426,0.0,1.816e-10,2.02e-12
+pade6,GL4,0.02,20,1.15598214,-1.15598214,0.0,,1.57e-13

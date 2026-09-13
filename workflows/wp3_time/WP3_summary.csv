@@ -1,0 +1,19 @@
+quantity,value,note
+rho reference h=0.01,1.0958938053989151,"median of GL4 k=40,80 and GL6 k=10,20"
+rho reference h=0.02,1.1342141856738963,"median of GL4 k=40,80 and GL6 k=10,20"
+midpoint observed velocity order,1.9945855507302857,"mean over h=0.01,0.02"
+GL4 observed velocity order,3.951143158337949,"mean over h=0.01,0.02"
+GL6 observed velocity order,5.930972098758609,"mean over h=0.01,0.02"
+max GL6 h-collapse difference,3.4568217399991684e-08,relative velocity error
+natural GL4 packet I corrected velocity rel error,7.822252216492406e-08,independent nonlinear validation
+natural GL4 packet II corrected velocity rel error,5.6809116595338404e-08,independent nonlinear validation
+archived midpoint kappa=5 corrected velocity rel error,6.653398942164913e-06,supersedes old correction
+archived midpoint kappa=20 corrected velocity rel error,2.1792034098051648e-06,supersedes old correction
+best tangent central finite-difference error midpoint,1.3861706702274056e-05,implementation check
+best tangent central finite-difference error GL4,0.0001184975882201,implementation check
+best tangent central finite-difference error GL6,0.0001334380411864,implementation check
+max adjoint identity error,2.7515441959978044e-14,all three integrators
+GL4-GL6 Richardson discrepancy h=0.01,3.315224363920066e-07,independent high-order semidiscrete spectrum check
+midpoint vs high-order Richardson mean h=0.01,1.7911666649883529e-06,independent second-order extrapolation check
+GL4-GL6 Richardson discrepancy h=0.02,2.2507557950746104e-07,independent high-order semidiscrete spectrum check
+midpoint vs high-order Richardson mean h=0.02,1.392634363606149e-06,independent second-order extrapolation check

@@ -1,0 +1,58 @@
+{
+  "wp1": {
+    "fixed_phase_points": 25,
+    "fixed_phase_unstable": 25,
+    "rho_min": 1.0392158733797932,
+    "rho_max": 1.1327947230332227,
+    "phase_branch_matches": 25
+  },
+  "wp2": {
+    "epsilon_c_h001_k5_reported": 0.36874942077677353,
+    "epsilon_c_h002_k20_reported": 0.19097228055038235,
+    "suppression_h001_k5": 796.3417619177633,
+    "suppression_h002_k20": 1265.7474217400088
+  },
+  "wp3": {
+    "rho_sd_h001": 1.0958938053989151,
+    "rho_sd_h002": 1.1342141856738963,
+    "order_midpoint": 1.9945855507302857,
+    "order_gl4": 3.951143158337949,
+    "order_gl6": 5.930972098758609,
+    "gl4_packet_I_relerr": 7.822252216492406e-08
+  },
+  "wp4": {
+    "rho_ismail": 1.0674860948419915,
+    "rho_defrutos": 1.13419897,
+    "rho_pade6": 1.15597426,
+    "rho_pade8": 1.13246263,
+    "V_ismail": 2.8576467195960147,
+    "V_defrutos": 20.66052165424319,
+    "V_pade6": 40.749639845829144,
+    "V_pade8": 31.990199534078563
+  },
+  "wp5": {
+    "ritz_ptp_h001": 7.766964849054148e-11,
+    "ritz_ptp_h002": 3.990807684317588e-12,
+    "cond_h001": 253.82201061477264,
+    "cond_h002": 45.288689585929305,
+    "ampmatch_max_relerr": 2.592912363421905e-07
+  },
+  "wp7": {
+    "n_clean_levels": 7,
+    "A_over_h2_min": 0.0659515823618653,
+    "A_over_h2_max": 0.1174612640562965,
+    "A_exponent": 2.1846266107147008,
+    "Linf_exponent": 2.1873432798232173,
+    "L1_exponent": 3.15414603726138,
+    "L2_exponent": 2.683007722070916,
+    "width_exponent": 0.999999999999998
+  },
+  "wp8": {
+    "epsilon_c_strict": 0.19101968809229042,
+    "onset_fit_slope": 1.9599100164890202,
+    "onset_fit_intercept": -8.94506248036365,
+    "onset_fit_R2": 0.9981527329843165,
+    "strict_max_residual": 3.509020672791395e-14,
+    "noninteger_kappa": 20.5
+  }
+}

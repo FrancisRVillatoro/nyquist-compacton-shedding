@@ -1,0 +1,2 @@
+kappa,last_recorded_time,max_abs_at_last_record,max_abs_over_trace,min_U_at_last_record,max_U_at_last_record,interpretation
+80,1.67,108757712170261.2,108757712170261.2,-106860827378417.8,108757712170261.2,catastrophic numerical instability before a clean Nyquist-packet comparison

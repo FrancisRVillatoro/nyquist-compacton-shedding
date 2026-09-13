@@ -1,0 +1,6 @@
+* text=auto
+*.mat binary
+*.npz binary
+*.npy binary
+*.png binary
+*.pdf binary

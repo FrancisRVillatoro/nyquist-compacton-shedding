@@ -1,0 +1,9 @@
+metric,value,note
+workflow_directories,6,phase scan + WP1 fixed phase + WP2--WP5
+raw_historical_files,2,separate archive; SHA-256 fixed
+raw_historical_bytes,52085610,two MATLAB files
+portable_python_absolute_mnt_refs,0,portability audit
+ci_tests_passed,11,pytest smoke suite
+headline_check_tests_passed,7,reproduce.py check subset
+cross_wp_figures_regenerated,5,reproduce.py figures
+repository_bytes_before_archiving,28838079,raw MATLAB files excluded
